@@ -1,0 +1,101 @@
+OP:admin	Order:123	Station:0    Slot:14	SN:0BD601263550400090	PN:HGD5RA5600S69G-HG-M	Start:2026-09-0518:25:40	End:2026-09-07 13:47:43		Result:L4_PASS
+
+4------------------------------------------------------------------------------------------------------------------------
+Freqency:	5600
+Vdd:		1067
+Vddq:		1067
+Vpp:		1746
+tCL:		42
+tRCD:		42
+tRP:		42
+tRAS:		85 
+tCWL:		40
+tRC:		127
+tCCD:		8
+tRFC:		585
+tRRD_S:		7
+tWR:		79
+tFAW:		32
+tRTP:		21
+tWTR_S:		7
+tREFI:		11470
+------------------------------------------------------------------------------------------------------------------------
+1 MATS8TC1 (Type 13) LoopIdx 0 Start 2026-09-05 18:38:26 Duration 00:02:22 Result L4 PASS
+2 MATS8TC2 (Type 14) LoopIdx 0 Start 2026-09-05 18:40:48 Duration 00:02:22 Result L4 PASS
+3 MATS8TC3 (Type 15) LoopIdx 0 Start 2026-09-05 18:43:10 Duration 00:05:09 Result L4 PASS
+4 XMATS8 (Type 0) LoopIdx 0 Start 2026-09-05 18:48:18 Duration 00:05:35 Result L4 PASS
+5 XMATS16 (Type 1) LoopIdx 0 Start 2026-09-05 18:53:53 Duration 00:11:08 Result L4 PASS
+6 WCMATS8 (Type 4) LoopIdx 0 Start 2026-09-05 19:05:01 Duration 00:05:35 Result L4 PASS
+7 WCMCH8 (Type 5) LoopIdx 0 Start 2026-09-05 19:10:36 Duration 00:12:09 Result L4 PASS
+8 MARCHCM8 (Type 7) LoopIdx 0 Start 2026-09-05 19:22:44 Duration 00:02:51 Result L4 PASS
+9 DATARET (Type 12) LoopIdx 0 Start 2026-09-05 19:25:35 Duration 00:00:20 Result L4 PASS
+10 TWR (Type 11) LoopIdx 0 Start 2026-09-05 19:25:54 Duration 00:02:32 Result L4 PASS
+11 SK-HYNIX (Type 16) LoopIdx 0 Start 2026-09-05 19:28:26 Duration 00:03:02 Result L4 PASS
+12 SAMSUNG (Type 17) LoopIdx 0 Start 2026-09-05 19:31:25 Duration 00:00:03 Result L4 PASS
+13 MICRON-RMW (Type 18) LoopIdx 0 Start 2026-09-05 19:31:26 Duration 00:00:02 Result L4 PASS
+14 MATS8TC1 (Type 13) LoopIdx 1 Start 2026-09-05 19:31:28 Duration 00:02:42 Result L4 PASS
+15 MATS8TC2 (Type 14) LoopIdx 1 Start 2026-09-05 19:33:50 Duration 00:02:43 Result L4 PASS
+16 MATS8TC3 (Type 15) LoopIdx 1 Start 2026-09-05 19:36:12 Duration 00:05:29 Result L4 PASS
+17 XMATS8 (Type 0) LoopIdx 1 Start 2026-09-05 19:41:20 Duration 00:05:55 Result L4 PASS
+18 XMATS16 (Type 1) LoopIdx 1 Start 2026-09-05 19:46:55 Duration 00:11:29 Result L4 PASS
+19 WCMATS8 (Type 4) LoopIdx 1 Start 2026-09-05 19:58:03 Duration 00:05:55 Result L4 PASS
+20 WCMCH8 (Type 5) LoopIdx 1 Start 2026-09-05 20:03:37 Duration 00:12:30 Result L4 PASS
+21 MARCHCM8 (Type 7) LoopIdx 1 Start 2026-09-05 20:15:45 Duration 00:03:12 Result L4 PASS
+22 DATARET (Type 12) LoopIdx 1 Start 2026-09-05 20:18:35 Duration 00:00:42 Result L4 PASS
+23 TWR (Type 11) LoopIdx 1 Start 2026-09-05 20:18:54 Duration 00:02:54 Result L4 PASS
+24 SK-HYNIX (Type 16) LoopIdx 1 Start 2026-09-05 20:21:26 Duration 00:03:24 Result L4 PASS
+25 SAMSUNG (Type 17) LoopIdx 1 Start 2026-09-05 20:24:26 Duration 00:00:24 Result L4 PASS
+26 MICRON-RMW (Type 18) LoopIdx 1 Start 2026-09-05 20:24:26 Duration 00:00:24 Result L4 PASS
+27 Test 0 [Address test, walking ones, 1 CPU] LoopIdx 0 Start 2026-09-05 20:28:26 Duration 00:03:51 Result L4 PASS
+28 Test 1 [Address test, own address, 1 CPU] LoopIdx 0 Start 2026-09-05 20:32:22 Duration 00:14:00 Result L4 PASS
+29 Test 2 [Address test, own address] LoopIdx 0 Start 2026-09-05 20:46:28 Duration 00:01:15 Result L4 PASS
+30 Test 3 [Moving inversions, ones & zeroes] LoopIdx 0 Start 2026-09-05 20:47:48 Duration 00:03:48 Result L4 PASS
+31 Test 4 [Moving inversions, 8-bit pattern] LoopIdx 0 Start 2026-09-05 20:51:42 Duration 00:11:30 Result L4 PASS
+32 Test 5 [Moving inversions, random pattern] LoopIdx 0 Start 2026-09-05 21:03:18 Duration 00:13:12 Result L4 PASS
+33 Test 6 [Block move, 64-byte blocks] LoopIdx 0 Start 2026-09-05 21:16:36 Duration 00:04:39 Result L4 PASS
+34 Test 7 [Moving inversions, 32-bit pattern] LoopIdx 0 Start 2026-09-05 21:21:20 Duration 00:53:42 Result L4 PASS
+35 Test 8 [Random number sequence] LoopIdx 0 Start 2026-09-05 22:15:08 Duration 00:15:45 Result L4 PASS
+36 Test 9 [Modulo 20, ones & zeros] LoopIdx 0 Start 2026-09-05 22:30:58 Duration 00:23:51 Result L4 PASS
+37 Test 10 [Bit fade test, 2 patterns, 1 CPU] LoopIdx 0 Start 2026-09-05 22:54:56 Duration 00:58:22 Result L4 PASS
+38 Test 11 [Random number sequence, 64-bit] LoopIdx 0 Start 2026-09-05 23:53:24 Duration 00:08:58 Result L4 PASS
+39 Test 12 [Random number sequence, 128-bit] LoopIdx 0 Start 2026-09-06 00:02:30 Duration 00:07:30 Result L4 PASS
+40 Test 0 [Address test, walking ones, 1 CPU] LoopIdx 0 Start 2026-09-06 00:10:10 Duration 00:03:48 Result L4 PASS
+41 Test 1 [Address test, own address, 1 CPU] LoopIdx 0 Start 2026-09-06 00:14:04 Duration 00:14:18 Result L4 PASS
+42 Test 2 [Address test, own address] LoopIdx 0 Start 2026-09-06 00:28:28 Duration 00:01:12 Result L4 PASS
+43 Test 3 [Moving inversions, ones & zeroes] LoopIdx 0 Start 2026-09-06 00:29:52 Duration 00:03:48 Result L4 PASS
+44 Test 4 [Moving inversions, 8-bit pattern] LoopIdx 0 Start 2026-09-06 00:33:48 Duration 00:11:30 Result L4 PASS
+45 Test 5 [Moving inversions, random pattern] LoopIdx 0 Start 2026-09-06 00:45:30 Duration 00:13:12 Result L4 PASS
+46 Test 6 [Block move, 64-byte blocks] LoopIdx 0 Start 2026-09-06 00:58:52 Duration 00:04:39 Result L4 PASS
+47 Test 7 [Moving inversions, 32-bit pattern] LoopIdx 0 Start 2026-09-06 01:03:44 Duration 00:53:37 Result L4 PASS
+48 Test 8 [Random number sequence] LoopIdx 0 Start 2026-09-06 01:57:28 Duration 00:15:46 Result L4 PASS
+49 Test 9 [Modulo 20, ones & zeros] LoopIdx 0 Start 2026-09-06 02:13:24 Duration 00:23:52 Result L4 PASS
+50 Test 10 [Bit fade test, 2 patterns, 1 CPU] LoopIdx 0 Start 2026-09-06 02:37:24 Duration 00:58:30 Result L4 PASS
+51 Test 11 [Random number sequence, 64-bit] LoopIdx 0 Start 2026-09-06 03:36:04 Duration 00:08:57 Result L4 PASS
+52 Test 12 [Random number sequence, 128-bit] LoopIdx 0 Start 2026-09-06 03:45:12 Duration 00:07:30 Result L4 PASS
+53 Test 0 [Address test, walking ones, 1 CPU] LoopIdx 0 Start 2026-09-06 03:52:50 Duration 00:03:49 Result L4 PASS
+54 Test 1 [Address test, own address, 1 CPU] LoopIdx 0 Start 2026-09-06 03:56:56 Duration 00:14:19 Result L4 PASS
+55 Test 2 [Address test, own address] LoopIdx 0 Start 2026-09-06 04:11:24 Duration 00:01:13 Result L4 PASS
+56 Test 3 [Moving inversions, ones & zeroes] LoopIdx 0 Start 2026-09-06 04:12:54 Duration 00:03:49 Result L4 PASS
+57 Test 4 [Moving inversions, 8-bit pattern] LoopIdx 0 Start 2026-09-06 04:16:56 Duration 00:11:31 Result L4 PASS
+58 Test 5 [Moving inversions, random pattern] LoopIdx 0 Start 2026-09-06 04:28:38 Duration 00:13:12 Result L4 PASS
+59 Test 6 [Block move, 64-byte blocks] LoopIdx 0 Start 2026-09-06 04:41:58 Duration 00:04:40 Result L4 PASS
+60 Test 7 [Moving inversions, 32-bit pattern] LoopIdx 0 Start 2026-09-06 04:46:54 Duration 00:53:33 Result L4 PASS
+61 Test 8 [Random number sequence] LoopIdx 0 Start 2026-09-06 05:40:42 Duration 00:15:46 Result L4 PASS
+62 Test 9 [Modulo 20, ones & zeros] LoopIdx 0 Start 2026-09-06 05:56:42 Duration 00:23:53 Result L4 PASS
+63 Test 10 [Bit fade test, 2 patterns, 1 CPU] LoopIdx 0 Start 2026-09-06 06:20:48 Duration 00:58:39 Result L4 PASS
+64 Test 11 [Random number sequence, 64-bit] LoopIdx 0 Start 2026-09-06 07:19:40 Duration 00:08:58 Result L4 PASS
+65 Test 12 [Random number sequence, 128-bit] LoopIdx 0 Start 2026-09-06 07:28:52 Duration 00:07:31 Result L4 PASS
+66 Test 13 [Hammer test] LoopIdx 0 Start 2026-09-06 07:36:42 Duration 26:21:39 Result L4 PASS
+67 Test 0 [Address test, walking ones, 1 CPU] LoopIdx 0 Start 2026-09-07 09:58:50 Duration 00:03:48 Result L4 PASS
+68 Test 1 [Address test, own address, 1 CPU] LoopIdx 0 Start 2026-09-07 10:03:25 Duration 00:14:27 Result L4 PASS
+69 Test 2 [Address test, own address] LoopIdx 0 Start 2026-09-07 10:18:35 Duration 00:01:15 Result L4 PASS
+70 Test 3 [Moving inversions, ones & zeroes] LoopIdx 0 Start 2026-09-07 10:20:06 Duration 00:03:49 Result L4 PASS
+71 Test 4 [Moving inversions, 8-bit pattern] LoopIdx 0 Start 2026-09-07 10:24:32 Duration 00:11:32 Result L4 PASS
+72 Test 5 [Moving inversions, random pattern] LoopIdx 0 Start 2026-09-07 10:36:42 Duration 00:13:11 Result L4 PASS
+73 Test 6 [Block move, 64-byte blocks] LoopIdx 0 Start 2026-09-07 10:50:42 Duration 00:04:38 Result L4 PASS
+74 Test 7 [Moving inversions, 32-bit pattern] LoopIdx 0 Start 2026-09-07 10:55:46 Duration 00:53:36 Result L4 PASS
+75 Test 8 [Random number sequence] LoopIdx 0 Start 2026-09-07 11:50:12 Duration 00:15:47 Result L4 PASS
+76 Test 9 [Modulo 20, ones & zeros] LoopIdx 0 Start 2026-09-07 12:06:28 Duration 00:23:53 Result L4 PASS
+77 Test 10 [Bit fade test, 2 patterns, 1 CPU] LoopIdx 0 Start 2026-09-07 12:30:57 Duration 00:58:31 Result L4 PASS
+78 Test 11 [Random number sequence, 64-bit] LoopIdx 0 Start 2026-09-07 13:30:21 Duration 00:08:59 Result L4 PASS
+79 Test 12 [Random number sequence, 128-bit] LoopIdx 0 Start 2026-09-07 13:40:13 Duration 00:07:29 Result L4 PASS
